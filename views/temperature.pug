@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title Node.js + Express App
+        script(src="https://code.highcharts.com/highcharts.js")
+        script(src="https://code.highcharts.com/modules/exporting.js")
+        script(src="/socket.io/socket.io.js")  
+    body
+        h1 #{title}
+         div(id="container2", style="min-width: 310px; height: 400px; margin: 0 auto")
+        div(id="container", style="min-width: 310px; height: 400px; margin: 0 auto")
+        div(id="container3", style="min-width: 310px; height: 400px; margin: 0 auto")
+       
+        script
+            include ../javascripts/temp_chart.js
